@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <title>Mohamed Arifkhan A</title>
+
+</head>
+
+<style>
+    .card
+{
+        position: relative;
+        height: 740px;
+        width: 360px;
+        background-color: rgb(0,0,0);
+        margin: 40px auto;
+        border:0px solid red;
+}
+    
+    .header {
+        position: absolute;
+        height: 220px;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-image: url(bg_3.png);        
+    }
+    
+    .header img {
+        position: absolute;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        left: 120px;
+        top: 22px;
+    }
+    
+    .header h3 {
+        position: absolute;
+        font-family: sans-serif;
+        color: white;
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        top: 118px;
+        left: 40px;
+    }
+    
+    .header p {
+        position: absolute;
+        font-family: sans-serif;
+        color: rgb(236, 233, 233);
+        font-size: 16px;
+        top: 166px;
+        left: 115px
+    }
+    
+    .body {
+        position: absolute;
+        height: 126px;
+        left: 5px;
+        right: 5px;
+        top: 35.2%;
+        background-color: black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .body ul {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .body ul li {
+        position: absolute;
+        list-style: none;
+        display: block;
+        height: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-image:url(bg_4.png);
+        transition: all .3s ease-in-out;
+    }
+    
+    .body ul li p,
+    h4,
+    i {
+        position: absolute;
+    }
+    
+    .body ul li h4 {
+        top: -17px;
+        left: 58px;
+        color: #610094;
+    }
+
+
+.body ul li h4 a{
+        text-decoration:none;        
+        color:rgb(0,187,254);
+    }
+    
+    .body ul li p {
+        top: 14px;
+        left: 59px;
+        font-size: 12px;
+        font-family: sans-serif;       
+        color:lightgray;
+    }
+    
+    .body ul li i {
+        left: 8px;
+        top: 7px;
+        color: rgb(255,255,255);
+        font-size: 26px;
+    }
+    
+    .body ul li:nth-child(1) {
+        top: -16px;
+    }
+    
+    .body ul li:nth-child(2) {
+        top: 31px;
+    }
+    
+    .body ul li:nth-child(3) {
+        top: 74px;
+    }
+    
+    .body ul li:nth-child(1) i {
+        left: 12px;
+    }
+    
+    .body li:hover {
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+
+
+	 .body1 {
+        position: absolute;
+        height: 50px;
+        left: 5px;
+        right: 5px;
+        top: 55%;
+        background-color: black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .body1 ul {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .body1 ul li {
+        position: absolute;
+        list-style: none;
+        display: block;
+        height: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-image:url(bg_4.png);
+        transition: all .3s ease-in-out;
+    }
+    
+.body1 ul li p,h4,i
+{
+        position: absolute;
+}
+
+.body1 ul li li
+{
+        height: 270px;
+}
+
+
+.body1 ul li li p
+{
+        position: initial;
+}
+    
+.body1 ul li h4
+{
+        top: -17px;
+        left: 58px;        
+        color:rgb(0,112,192);
+}
+    
+
+.body1 ul li h4 a
+{
+        text-decoration:none;        
+        color:rgb(0,187,254);
+}
+
+.body1 ul li p
+{
+        top: 14px;
+        left: 59px;
+        font-size: 12px;
+        font-family: sans-serif;
+        color:lightgray;
+}
+    
+.body1 ul li i
+{
+        left: 8px;
+        top: 7px;
+        color: rgb(255,255,255);
+        font-size: 26px;
+}
+    
+    .body1 ul li:nth-child(1) {
+        top: -25px;
+    }
+    
+    .body1 ul li:nth-child(2) {
+        top: 26px;
+
+    }
+    
+    .body1 ul li:nth-child(3) {
+        top: 72px;
+    }
+    
+    .body1 ul li:nth-child(1) i {
+        left: 12px;
+    }
+    
+    .body1 li:hover {
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+    
+/**************************************************************************************************************/
+
+	 .body2 {
+        position: absolute;
+        height: 155px;
+        left: 5px;
+        right: 5px;
+        top: 60%;
+        background-color: black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/*border:2px solid red;*/
+    }
+
+
+
+  .body2 ul {
+        
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+border:2px solid pink;
+    }
+    
+    .body2 ul li{
+        position:absolute;
+        list-style: none;
+        display: block;
+        height: 152px;
+        width: 100%;
+        left: 0;
+        right: 0;
+top:0;
+        background-image:url(bg_4.png) ;
+background-repeat:repeat-x;
+        transition: all .3s ease-in-out;
+/*border:2px solid green;*/
+    }
+    
+.body2 ul li p,h4,i
+{
+     
+}
+
+.body2 ul li li
+{
+        height: 70px;
+}
+
+
+.body2 ul li li p
+{
+        position: initial;
+}
+    
+.body2 ul li h4
+{
+        top: -17px;
+        left: 58px;        
+        color:rgb(0,112,192);
+/*border:2px solid blue;*/
+}
+    
+
+.body2 ul li h4 a
+{
+        text-decoration:none;        
+        color:rgb(0,187,254);
+}
+
+.body2 ul li p
+{
+        top: 16px;
+        left: 59px;
+        font-size: 12px;
+        font-family: sans-serif;
+        color:lightgray;
+position:relative;
+}
+    
+.body2 ul li i
+{
+        left: 8px;
+        top: 7px;
+        color: rgb(255,255,255);
+        font-size: 26px;
+}
+
+
+
+
+
+/*******************************************************************************************************************/
+
+
+
+	 .body3 {
+        position:absolute;
+        height: 42px;
+        left: 5px;
+        right: 5px;
+        top: 80.5%;
+        background-color: black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border:0px solid red;
+    }
+
+  .body3 ul {
+        
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .body3 ul li {
+    position:absolute;   
+        list-style: none;
+        display: block;
+        height: 40px;
+        width: 100%;
+        left: 0;
+        right: 0;
+top:-1%;
+        background-image:url(bg_4.png);
+        transition: all .3s ease-in-out;
+border:0px solid green;
+    }
+    
+.body3 ul li p,h4,i
+{
+        position: absolute;
+}
+
+.body3 ul li li
+{
+        height: 70px;
+}
+
+
+.body3 ul li li p
+{
+        position: initial;
+}
+    
+.body3 ul li h4
+{
+        top: -17px;
+        left: 58px;        
+        color:rgb(0,112,192);
+}
+    
+
+.body3 ul li h4 a
+{
+        text-decoration:none;        
+        color:rgb(0,187,254);
+}
+
+.body3 ul li p
+{
+        top: 14px;
+        left: 59px;
+        font-size: 12px;
+        font-family: sans-serif;
+        color:lightgray;
+}
+    
+.body3 ul li i
+{
+        left: 8px;
+        top: 7px;
+        color: rgb(255,255,255);
+        font-size: 26px;
+}
+
+
+
+/*******************************************************************************************************************/
+
+
+/*footer*/
+    
+    .footer {
+        position: absolute;
+        height: 80px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+background-image: url(bg_3.png);
+    }
+    
+    .footer ul {
+        position: absolute;
+        left: -40px;
+    }
+    
+    .footer ul li {
+        display: inline-block;
+        margin-left: 65px;
+    }
+    
+    .footer ul li i {
+        font-size: 30px;
+        color: #7f8c8d;
+        transition: all .3s ease-in;
+    }
+    
+    .footer ul li:hover i {
+        transform: scale(0.9);
+        color: rgb(0,112,192);
+        cursor: pointer;
+        border-bottom: 2px solid #000;
+    }
+
+
+
+
+
+
+
+
+</style>
+
+<body>
+
+<!--/****************************************************************************************/-->
+
+
+    <div class="card">
+        <div class="header">
+            <img src="images/arif_dp.png">
+            <h3>A ASHEEK ASAN MOHAMED</h3>
+            <p>Software Developer</p>
+            
+        </div>
+
+
+<!--/****************************************************************************************/-->
+
+        <div class="body">
+            <ul>
+                <li>
+                    <h4><a href="tel:+966551049539">+966 5510 49539</a></h4>
+                    <p>Mobile number</p>
+                    <i class="fas fa-mobile-alt"></i>
+                </li>
+                <li>
+                    <h4><a href="https://wa.me/+919042742592">+91 90427 42592</a></h4>
+                    <p>Whatsapp</p>
+                    <i class="fab fa-whatsapp"></i>
+                </li>
+                <li>
+                    <h4><a href="https://goo.gl/maps/oCjuRFSWpmFpZZUbA">Dammam, Saudi Arabia</a></h4>
+                    <p>Location</p>
+                    <i class="fas fa-map-marked"></i>
+                </li>
+			</ul>
+			
+        </div>
+
+
+<!--/****************************************************************************************/-->
+
+    <div class="body1">
+            <ul>
+                <li>
+                    <h4><a href="mailto:ariffkhan.ece@gmail.com">Ariffkhan.ece@gmail.com</a></h4>
+                    <p>Email address</p>
+                    <i class="fas fa-envelope"></i>
+                </li>
+            </ul>
+			
+     </div>
+
+
+<div class="body2">
+<ul>
+                  <li>
+                    <h4><a href="#">Services Provide</a></h4>
+                    <p>Digital ID Cards</p>
+                    <p>Invitations</p>
+                    <p>CV</p>
+                    <p>Digital Pamplets</p>
+<p>Database Applications</p>
+                    <i class="fas fa-cogs"></i>
+                </li>
+
+
+</ul>
+                 
+                 		
+     </div>
+
+
+
+<div class="body3">
+<ul>
+                <li>
+                    <h4><a href="#">Digital ID Card SAR 120/-per year</a></h4>
+                    <p>Every Active Reference You Get SAR 20/-per year</p>
+                    <i class="fas fa-wallet"></i>
+                </li>
+
+</ul>			
+</div>
+
+
+<!--/****************************************************************************************/-->
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                   <a href="#"> <i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+<!--/****************************************************************************************/-->
+
+    </div>
+
+</body>
+
+</html>
